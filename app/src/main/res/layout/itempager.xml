@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_marginTop="-200dp"
+        android:layout_width="330dp"
+        android:layout_height="330dp"
+        android:id="@+id/pager_image"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Geoaxborot"
+        android:layout_marginTop="43dp"
+        android:textSize="28sp"
+        android:id="@+id/tv_name"
+        android:textColor="#303B4F"/>
+    <TextView
+        android:layout_width="334dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="Geoaxborot moduli orqali siz o'zingizga yaqin bo'lgan migrantlar va boshqa muassasalar haqida ma'lumot olishingiz mumkin"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"
+        android:id="@+id/tv_about"
+        android:textColor="#303B4F"/>
+
+
+
+</LinearLayout>
